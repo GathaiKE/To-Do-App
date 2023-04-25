@@ -1,0 +1,112 @@
+body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      height: 100vh;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.container{
+      background-image:linear-gradient(to bottom right,purple,pink);
+      padding: 20px 50px;
+      border-radius: 5px;
+      color: white;
+}
+
+form{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+input{
+      border-color: blueviolet;
+      padding:10px;
+      border-radius: 5px;
+      outline: blueviolet;
+      color: blueviolet;
+}
+
+.form button{
+      padding: 10px;
+      width: 100px;
+      outline: none;
+      border: none;
+      color: white;
+      font-weight: 600;
+      background-color: blueviolet;
+      border-radius: 5px;
+}
+button:hover{
+      cursor: pointer;
+}
+button:active{
+      opacity: .7;
+      color: blueviolet;
+      background: white;
+      border: 1px solid blueviolet;
+}
+
+.todos{
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      width: 100%;
+}
+
+.todo{
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 5px 15px;
+      border-radius: 5px;
+      font-weight: 600;
+      font-size: 1.2rem;
+}
+
+
+.todo span{
+      color: white;
+}
+
+.todo button{
+      padding: 0;
+      margin: 0;
+      border: none;
+      outline: none;
+      background-color: white;
+}
+
+.todo i{
+      color: #f55069;
+}
+
+.delete-all{
+      margin-top: 20px;
+      padding: 10px;
+      width: 300px;
+      background-color: blueviolet;
+      color: white;
+      border-style: none;
+      border-radius: 5px;
+      font-size: 20px;
+}
+.delete-all:hover{
+      cursor: pointer;
+      opacity: 0.9;
+}
+.delete-all:active{
+      background-color: white;
+      color: blueviolet;
+      cursor: pointer;
+      border: 2px solid blueviolet;
+}
+
